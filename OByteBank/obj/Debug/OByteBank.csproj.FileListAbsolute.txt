@@ -1,0 +1,7 @@
+c:\users\bubub\source\repos\OByteBank\OByteBank\bin\Debug\OByteBank.exe.config
+c:\users\bubub\source\repos\OByteBank\OByteBank\bin\Debug\OByteBank.exe
+c:\users\bubub\source\repos\OByteBank\OByteBank\bin\Debug\OByteBank.pdb
+c:\users\bubub\source\repos\OByteBank\OByteBank\obj\Debug\OByteBank.csprojAssemblyReference.cache
+c:\users\bubub\source\repos\OByteBank\OByteBank\obj\Debug\OByteBank.csproj.CoreCompileInputs.cache
+c:\users\bubub\source\repos\OByteBank\OByteBank\obj\Debug\OByteBank.exe
+c:\users\bubub\source\repos\OByteBank\OByteBank\obj\Debug\OByteBank.pdb
