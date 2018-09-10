@@ -1,4 +1,5 @@
 ﻿using OByteBank.Funcionarios;
+using OByteBank.Sistemas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,31 @@ namespace OByteBank
         static void Main(string[] args)
         {
 
-            CalcularBonificacao();
+            //CalcularBonificacao();
+            UsarSistema();
 
             Console.ReadLine();
+        }
+
+        public static void UsarSistema()
+        {
+            SistemaInterno sistemaInterno = new SistemaInterno();
+
+            Diretor roberta = new Diretor("159.753.398-04");
+            roberta.Nome = "Roberta";
+            roberta.Senha = "124";
+
+            GerenteDeConta camila = new GerenteDeConta("326.985.628-89");
+            camila.Nome = "Camila";
+            camila.Senha = "abc";
+
+            ParceiroComercial parceiro = new ParceiroComercial();
+            parceiro.Senha = "123456";
+
+            sistemaInterno.Logar(parceiro, "123456");
+            sistemaInterno.Logar(roberta, "124");
+            sistemaInterno.Logar(camila, "abc");
+            sistemaInterno.Logar(camila, "aBU");
         }
 
         public static void CalcularBonificacao()
