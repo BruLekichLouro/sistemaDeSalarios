@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OByteBank.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace OByteBank.Funcionarios
 {
-    public class Diretor : Funcionario
+    public class Diretor : FuncionarioAutenticavel
     {
-        public Diretor(string cpf) : base(5000, cpf)// todo diretor tem salario inicial de 5000
+        public Diretor(string cpf) : base(5000, cpf)
         {
             Console.WriteLine("Criando DIRETOR");
         }
-        
+
         public override void AumentarSalario()
         {
             Salario *= 1.15;
